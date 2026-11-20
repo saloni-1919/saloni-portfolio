@@ -1,0 +1,28 @@
+{
+  "name": "saloni-cinematic-portfolio",
+  "version": "4.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "check": "node scripts/check.mjs",
+    "sync:tableau": "node scripts/sync-tableau.mjs",
+    "sync:github": "node scripts/sync-github.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "gsap": "^3.13.0",
+    "framer-motion": "^12.20.0",
+    "lenis": "^1.3.0",
+    "lucide-react": "^0.468.0",
+    "three": "^0.179.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.23"
+  }
+}

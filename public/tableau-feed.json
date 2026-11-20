@@ -1,0 +1,54 @@
+{
+  "dashboards": [
+    {
+      "id": "SaaSCustomerChurnRevenueRetentionDashboard",
+      "workbook": "SaaSCustomerChurnRevenueRetentionDashboard",
+      "view": "CustomerOverview",
+      "title": "SaaS Customer Churn & Revenue Retention",
+      "subtitle": "Customer health, retention patterns & revenue insights",
+      "description": "Explore SaaS customer dynamics, churn behavior, and revenue retention in Saloni’s interactive Tableau report.",
+      "category": "CUSTOMER INTELLIGENCE",
+      "primary": true,
+      "isFeatured": true,
+      "updatedAt": null,
+      "embedUrl": "https://public.tableau.com/views/SaaSCustomerChurnRevenueRetentionDashboard/CustomerOverview?:showVizHome=no&:embed=yes&:toolbar=yes",
+      "publicUrl": "https://public.tableau.com/app/profile/saloni.nathani/viz/SaaSCustomerChurnRevenueRetentionDashboard/CustomerOverview",
+      "thumbnail": "https://public.tableau.com/thumb/views/SaaSCustomerChurnRevenueRetentionDashboard/CustomerOverview"
+    },
+    {
+      "id": "AirlineOperationsControlCenter",
+      "workbook": "AirlineOperationsControlCenter",
+      "view": "Dashboard1",
+      "title": "Airline Operations Control Center",
+      "subtitle": "Airline operations, monitoring and performance",
+      "description": "An interactive Tableau operations control center for reviewing airline activity and operational KPIs.",
+      "category": "OPERATIONS ANALYTICS",
+      "primary": false,
+      "isFeatured": true,
+      "updatedAt": null,
+      "embedUrl": "https://public.tableau.com/views/AirlineOperationsControlCenter/Dashboard1?:showVizHome=no&:embed=yes&:toolbar=yes",
+      "publicUrl": "https://public.tableau.com/app/profile/saloni.nathani/viz/AirlineOperationsControlCenter/Dashboard1",
+      "thumbnail": "https://public.tableau.com/thumb/views/AirlineOperationsControlCenter/Dashboard1"
+    },
+    {
+      "id": "E-CommercePricingStrategyAnalysis",
+      "workbook": "E-CommercePricingStrategyAnalysis",
+      "view": "Dashboard1",
+      "title": "E-Commerce Pricing Strategy Analysis",
+      "subtitle": "Pricing strategy, commercial trends & analysis",
+      "description": "An interactive exploration of e-commerce pricing and performance, published on Saloni’s Tableau Public profile.",
+      "category": "PRICING ANALYTICS",
+      "primary": false,
+      "isFeatured": true,
+      "updatedAt": null,
+      "embedUrl": "https://public.tableau.com/views/E-CommercePricingStrategyAnalysis/Dashboard1?:showVizHome=no&:embed=yes&:toolbar=yes",
+      "publicUrl": "https://public.tableau.com/app/profile/saloni.nathani/viz/E-CommercePricingStrategyAnalysis/Dashboard1",
+      "thumbnail": "https://public.tableau.com/thumb/views/E-CommercePricingStrategyAnalysis/Dashboard1"
+    }
+  ],
+  "featured": 3,
+  "autoSync": false,
+  "profile": "https://public.tableau.com/app/profile/saloni.nathani/vizzes",
+  "generatedAt": "2026-11-19T23:34:41.783Z",
+  "refreshHours": 6
+}

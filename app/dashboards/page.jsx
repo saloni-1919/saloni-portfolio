@@ -1,0 +1,3 @@
+import TableauGallery from '@/components/TableauGallery';
+export const metadata={title:'Dashboards — Tableau Public',description:'Explore Saloni Nathani’s interactive Tableau dashboards: SaaS churn and retention, airline operations, e-commerce pricing, and automatically discovered public reports.'};
+export default function Dashboards(){return <main className="inner-page section-edge dashboards-page"><div className="inner-head"><p className="eyebrow">PORTFOLIO / LIVE DATA VISUALIZATIONS</p><h1>DASHBOARDS<span className="accent">.</span></h1><p>Real business questions. Interactive data stories. Explore Tableau workbooks directly inside the portfolio.</p></div><TableauGallery/></main>}

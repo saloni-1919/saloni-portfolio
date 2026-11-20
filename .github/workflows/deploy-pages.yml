@@ -1,0 +1,82 @@
+name: Deploy Saloni portfolio to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # Re-check Tableau Public for newly published dashboards four times per day.
+  # GitHub may delay scheduled workflows or disable them after prolonged inactivity.
+  schedule:
+    - cron: '17 1,7,13,19 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Configure GitHub Pages URL and project base path
+        shell: bash
+        run: |
+          owner="${GITHUB_REPOSITORY%%/*}"
+          repo="${GITHUB_REPOSITORY#*/}"
+          if [[ "${repo,,}" == "${owner,,}.github.io" ]]; then
+            base=""
+          else
+            base="/$repo"
+          fi
+          echo "NEXT_PUBLIC_BASE_PATH=$base" >> "$GITHUB_ENV"
+          echo "NEXT_PUBLIC_SITE_URL=https://${owner}.github.io${base}" >> "$GITHUB_ENV"
+          echo "Portfolio URL: https://${owner}.github.io${base}/"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Update cached GitHub repositories
+        run: npm run sync:github
+
+      - name: Discover new Tableau Public dashboards
+        run: npm run sync:tableau
+
+      - name: Validate content
+        run: npm run check
+
+      - name: Build static website
+        run: npm run build
+
+      - name: Preserve Next.js asset paths on Pages
+        run: touch out/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

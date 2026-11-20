@@ -1,0 +1,8 @@
+# Saloni Nathani — AI, Data & Software portfolio
+Name: Saloni Nathani
+GitHub: https://github.com/saloni-1919
+LinkedIn: https://www.linkedin.com/in/saloninathani
+Featured project: BioSum Reliable — biomedical text summarization using NLP, PyTorch, transformers, spaCy and FastAPI.
+Repository: https://github.com/saloni-1919/biosum-reliable
+Demo: https://huggingface.co/spaces/saloni-1919/biosum-reliable
+For current information and source code, visit the listed public repositories.

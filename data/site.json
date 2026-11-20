@@ -1,0 +1,370 @@
+{
+  "name": "Saloni Nathani",
+  "shortName": "Saloni",
+  "headline": [
+    "IDEAS INTO",
+    "INTELLIGENCE."
+  ],
+  "eyebrow": "DATA ANALYTICS / AI / SOFTWARE ENGINEERING",
+  "tagline": "I turn data, AI research, and reliable software into solutions that help people make better decisions.",
+  "about": [
+    "I'm Saloni Nathani, a software and data professional with a Master of Science in Information Systems from Pace University, where I earned a 4.0/4.0 GPA, the Scholar Award, and a university gold medal.",
+    "My experience spans data analytics, scalable Python pipelines, API integration, dashboard development, backend engineering, and technical mentoring. At Kappium, I work across analytical reporting and automated data workflows; previously, I developed reliable software at Tekhnologia Innovations and guided learners at Kalvium.",
+    "Beyond professional projects, I explore reinforcement learning, practical NLP, and web intelligence. I have contributed research presented at ICERI and published in IJARSCT, and I enjoy connecting rigorous analysis with systems that are useful in the real world."
+  ],
+  "education": [
+    {
+      "school": "Pace University",
+      "location": "New York, NY",
+      "degree": "Master of Science in Information Systems (MSIS)",
+      "period": "Jan 2025 – May 2026",
+      "gpa": "4.0 / 4.0",
+      "honors": [
+        "Gold Medal — perfect 4.0/4.0 GPA",
+        "Scholar Award"
+      ]
+    },
+    {
+      "school": "MIT ADT University",
+      "location": "Maharashtra, India",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "period": "Sep 2020 – May 2024",
+      "gpa": "3.3 / 4.0",
+      "honors": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "Kappium, LLC",
+      "role": "Data Analyst / Software Developer",
+      "period": "Sep 2026 – Present",
+      "location": "",
+      "description": "Work spanning data analytics, Python backend engineering, API integration, and automated data workflows.",
+      "highlights": [
+        "Build and optimize Python-based data pipelines, automated ETL workflows, and REST API integrations for efficient data ingestion.",
+        "Analyze business performance through statistical, trend, and forecasting analysis using Python, SQL, and Excel.",
+        "Translate business requirements into KPIs and interactive Power BI and Tableau dashboards.",
+        "Improve reporting quality and pipeline reliability through data validation, discrepancy checks, code refactoring, and automation."
+      ]
+    },
+    {
+      "company": "Tekhnologia Innovations India Pvt. Ltd.",
+      "role": "Software Developer",
+      "period": "Jul 2023 – Dec 2024",
+      "location": "India",
+      "description": "Production Python engineering, system reliability, data integrity, and maintainable backend workflows.",
+      "highlights": [
+        "Enhanced production Python modules to resolve data-processing bottlenecks and strengthen infrastructure reliability.",
+        "Investigated logs and tested data workflows to fix runtime errors and safeguard data integrity.",
+        "Documented edge cases, bug fixes, and error-handling practices to reduce recurring failures."
+      ]
+    },
+    {
+      "company": "Kalvium",
+      "role": "Technical Mentor",
+      "period": "Feb 2024 – May 2024",
+      "location": "",
+      "description": "Mentored students building practical software and machine-learning applications.",
+      "highlights": [
+        "Guided programming, machine-learning applications, debugging, and algorithmic problem solving.",
+        "Delivered technical sessions on data flow, concepts, and hands-on implementation.",
+        "Helped learners turn theoretical ideas into working software."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming & query languages",
+      "items": [
+        "Python",
+        "Java",
+        "R",
+        "TypeScript",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Databases & data management",
+      "items": [
+        "MySQL",
+        "BigQuery",
+        "Snowflake",
+        "Amazon Redshift",
+        "SQL Optimization",
+        "Data Cleaning",
+        "Data Validation"
+      ]
+    },
+    {
+      "category": "Cloud & orchestration",
+      "items": [
+        "AWS",
+        "Google Cloud Platform (GCP)",
+        "Microsoft Azure",
+        "Databricks",
+        "Apache Airflow",
+        "AWS Glue",
+        "AWS Lambda",
+        "CI/CD Testing"
+      ]
+    },
+    {
+      "category": "Business intelligence & reporting",
+      "items": [
+        "Tableau",
+        "Power BI",
+        "Looker",
+        "Advanced Excel",
+        "Executive Dashboards",
+        "KPI Tracking"
+      ]
+    },
+    {
+      "category": "Analytics & statistics",
+      "items": [
+        "Exploratory Data Analysis (EDA)",
+        "Statistical Analysis",
+        "Regression Analysis",
+        "Trend Analysis",
+        "A/B Testing",
+        "Forecasting",
+        "Product Analytics",
+        "Performance Monitoring"
+      ]
+    },
+    {
+      "category": "Data engineering & processing",
+      "items": [
+        "Pandas",
+        "NumPy",
+        "Data Wrangling",
+        "Data Transformation",
+        "ETL Pipelines",
+        "REST API Integration"
+      ]
+    },
+    {
+      "category": "AI & natural language processing",
+      "items": [
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Deep Q-Network (DQN)",
+        "PyTorch",
+        "Natural Language Processing (NLP)",
+        "NLTK",
+        "spaCy",
+        "Transformers",
+        "Hugging Face"
+      ]
+    },
+    {
+      "category": "Backend & developer tools",
+      "items": [
+        "FastAPI",
+        "Flask",
+        "BeautifulSoup",
+        "Git",
+        "Docker"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/saloni-1919"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saloninathani"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "biosum-reliable",
+      "number": "01",
+      "title": "BioSum Reliable",
+      "type": "AI / BIOMEDICAL NLP",
+      "year": "GitHub project",
+      "summary": "An evidence-backed biomedical text summarization pipeline combining extractive NLP, entity recognition and transformer-based abstractive generation.",
+      "description": "BioSum Reliable transforms biomedical research text into structured, interpretable summaries. It blends entity recognition, evidence-ranked extractive summarization and transformer-based abstractive summarization, exposed through a FastAPI service.",
+      "highlights": [
+        "Biomedical entity recognition",
+        "Evidence-ranked sentences",
+        "Structured Objective / Methods / Results / Conclusion",
+        "FastAPI and interactive API docs"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "Transformers",
+        "spaCy",
+        "Docker"
+      ],
+      "github": "https://github.com/saloni-1919/biosum-reliable",
+      "demo": "https://huggingface.co/spaces/saloni-1919/biosum-reliable",
+      "visual": "violet",
+      "image": "/images/projects/biosum-reliable.webp"
+    },
+    {
+      "slug": "kpi-reinforcement-learning",
+      "number": "02",
+      "title": "KPI Decision Agent",
+      "type": "REINFORCEMENT LEARNING / BUSINESS AI",
+      "year": "Research project",
+      "summary": "A PyTorch Deep Q-Network that learns business decisions in a simulated KPI-driven environment.",
+      "description": "Built an autonomous reinforcement-learning agent that learns business actions using a Deep Q-Network (DQN). Trained across more than 1,000 episodes, evaluated reward convergence and policy stability, and benchmarked the resulting strategy against rule-based decisions.",
+      "highlights": [
+        "Deep Q-Network in PyTorch",
+        "Trained for over 1,000 episodes",
+        "Reward convergence and policy stability analysis",
+        "Comparison with rule-based decision strategies"
+      ],
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Reinforcement Learning",
+        "Business KPIs"
+      ],
+      "visual": "orange",
+      "image": "/images/projects/kpi-decision-agent.webp"
+    },
+    {
+      "slug": "real-time-trend-intelligence",
+      "number": "03",
+      "title": "Web Trend Intelligence",
+      "type": "DATA ENGINEERING / TEXT ANALYTICS",
+      "year": "Python data project",
+      "summary": "A live web data pipeline for collecting, analyzing, and visualizing emerging topics over time.",
+      "description": "Developed a Python pipeline with BeautifulSoup and Pandas to collect and structure live web information. Used text and frequency analysis to identify trending topics and behavioral patterns and visualized their changes across time.",
+      "highlights": [
+        "Live data collection and preprocessing",
+        "Topic and frequency analysis",
+        "Trend monitoring and visualization"
+      ],
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "Pandas",
+        "Data Visualization"
+      ],
+      "visual": "blue",
+      "image": "/images/projects/web-trend-intelligence.webp"
+    },
+    {
+      "slug": "nlp-sentiment-analysis-api",
+      "number": "04",
+      "title": "NLP Sentiment API",
+      "type": "NLP / MACHINE LEARNING / BACKEND",
+      "year": "Machine learning project",
+      "summary": "End-to-end text classification and sentiment prediction through a Flask REST API.",
+      "description": "Designed a Python NLP pipeline that cleans, tokenizes and vectorizes unstructured text with NLTK and spaCy. Trained machine-learning classifiers for text and sentiment predictions and exposed real-time inference through a Flask REST API.",
+      "highlights": [
+        "Text cleaning, tokenization, and vectorization",
+        "Model tuning and feature engineering",
+        "Real-time classification and sentiment API"
+      ],
+      "stack": [
+        "Python",
+        "NLTK",
+        "spaCy",
+        "Flask"
+      ],
+      "visual": "violet",
+      "image": "/images/projects/nlp-sentiment-api.webp"
+    }
+  ],
+  "notes": [
+    {
+      "slug": "biosum-architecture",
+      "title": "Inside BioSum Reliable",
+      "category": "PROJECT BREAKDOWN",
+      "date": "Architecture notes",
+      "summary": "How extractive evidence and transformer generation work together in a biomedical summarization pipeline.",
+      "paragraphs": [
+        "BioSum Reliable follows a hybrid design: the system first segments biomedical text, identifies entities and ranks evidence-bearing sentences before producing an extractive summary.",
+        "A transformer-based abstractive summarizer then uses the selected material to create a concise result. The output includes structured research sections and surfaced evidence so the result is easier to inspect.",
+        "The backend is built with FastAPI and ships with an interactive API reference. See the repository for reproducible setup instructions and implementation details."
+      ],
+      "source": "https://github.com/saloni-1919/biosum-reliable"
+    }
+  ],
+  "reviews": [],
+  "location": "Jersey City, New Jersey, USA",
+  "contactEmail": "saloninathani19@gmail.com",
+  "awards": [
+    {
+      "title": "Scholar Award",
+      "issuer": "Pace University",
+      "date": "",
+      "description": "Awarded in recognition of academic excellence in the Master of Science in Information Systems program, with a 4.0/4.0 GPA. Saloni also received a Pace University gold medal for her academic achievement."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Building Data Pipelines Using Python: A Hands-On Journey in Web Scraping, Analysis, and Visualization",
+      "venue": "International Conference of Education, Research and Innovation (ICERI)",
+      "date": "Dec 2025",
+      "type": "Conference publication",
+      "summary": "Research on practical Python-based data pipelines, from web scraping and analysis through visualization.",
+      "pdf": "/papers/iceri-2025-data-pipelines.pdf"
+    },
+    {
+      "title": "Sign Language Interpreter for Physically Challenged People",
+      "venue": "International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)",
+      "date": "May 2024",
+      "type": "Journal publication",
+      "summary": "Research presenting a sign-language interpretation system with an accessibility-oriented application.",
+      "pdf": "/papers/ijarsct-2024-sign-language-interpreter.pdf"
+    }
+  ],
+  "professionalDevelopment": [
+    {
+      "title": "Deloitte Australia Data Analytics Job Simulation",
+      "provider": "Forage",
+      "date": "Jul 2025",
+      "description": "Completed the Deloitte Australia Data Analytics job simulation on Forage."
+    },
+    {
+      "title": "McKinsey Forward Program",
+      "provider": "McKinsey & Company",
+      "date": "Jul 2025",
+      "description": "Participated in the McKinsey Forward professional development program."
+    }
+  ],
+  "tableau": {
+    "profile": "saloni.nathani",
+    "profileUrl": "https://public.tableau.com/app/profile/saloni.nathani/vizzes",
+    "autoSync": true,
+    "refreshMinutes": 60,
+    "featured": [
+      {
+        "workbook": "SaaSCustomerChurnRevenueRetentionDashboard",
+        "view": "CustomerOverview",
+        "title": "SaaS Customer Churn & Revenue Retention",
+        "subtitle": "Customer health, retention patterns & revenue insights",
+        "description": "Explore SaaS customer dynamics, churn behavior, and revenue retention in Saloni’s interactive Tableau report.",
+        "category": "CUSTOMER INTELLIGENCE",
+        "primary": true
+      },
+      {
+        "workbook": "AirlineOperationsControlCenter",
+        "view": "Dashboard1",
+        "title": "Airline Operations Control Center",
+        "subtitle": "Airline operations, monitoring and performance",
+        "description": "An interactive Tableau operations control center for reviewing airline activity and operational KPIs.",
+        "category": "OPERATIONS ANALYTICS"
+      },
+      {
+        "workbook": "E-CommercePricingStrategyAnalysis",
+        "view": "Dashboard1",
+        "title": "E-Commerce Pricing Strategy Analysis",
+        "subtitle": "Pricing strategy, commercial trends & analysis",
+        "description": "An interactive exploration of e-commerce pricing and performance, published on Saloni’s Tableau Public profile.",
+        "category": "PRICING ANALYTICS"
+      }
+    ]
+  },
+  "certifications": []
+}
